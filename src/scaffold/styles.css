@@ -1,0 +1,97 @@
+button {
+  cursor: pointer;
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+.navItem {
+  float: left;
+}
+.navLink {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  background-color: #111111;
+}
+.toggle-box {
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  transition: 200ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-text {
+  text-align: center;
+}
+.dark {
+  background: #111111;
+  color: #fff;
+}
+
+.light {
+  background: #ffff;
+  color: #000;
+}
+.container {
+  padding: 16px;
+}
+.post-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.loader {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-weight: 800;
+  animation-name: blink;
+  animation-duration: 750ms;
+  animation-iteration-count: infinite;
+}
+.post {
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.062);
+  border-radius: 8px;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.not-found {
+  background: rgb(200, 223, 233);
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.input-section {
+  display: flex;
+  gap: 6px;
+}
