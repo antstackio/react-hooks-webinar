@@ -7,7 +7,6 @@ const StageTwo = () => {
         Awsome! Now that you have used a pre-existing hook, lets try making our
         own
       </h1>
-      <h3>This is the Second Exercise</h3>
       <h4>Making Custom Hooks!</h4>
       <p>
         Make a <code>useToggle</code> hook!

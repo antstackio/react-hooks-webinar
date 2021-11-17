@@ -4,8 +4,9 @@ import useInput from "./useInput";
 const StageFour = () => {
   const [value, handleChange] = useInput("");
   return (
-    <div className="">
-      <input value={value} onChange={handleChange}></input>
+    <div>
+      <h1>Debounce</h1>
+      <input value={value} onChange={handleChange} />
     </div>
   );
 };
